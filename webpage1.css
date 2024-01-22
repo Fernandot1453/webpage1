@@ -8,7 +8,7 @@ body {
     margin-left: 200px;
 }
 
-img {
+.firstimage {
     border:black 2px solid;
     width: 500px;
     height: auto;
@@ -69,4 +69,59 @@ a {
     margin-bottom: 15px;
     font-size: 24px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.sectiontwowords {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.sectiontwo {
+    display: flex;
+    flex-direction: column;
+}
+
+.image1 {
+    margin-top: -4px;
+}
+
+.image2 {
+    margin-top: 16px;
+}
+
+.image3 {
+    margin-top: 16px;
+}
+
+.image4 {
+    margin-top: -5px;
+}
+
+.caption {
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagerow {
+    border-radius: 10%;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.imagerowinfo {
+    gap: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.imagerowb {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    display: flex; 
+    width: 100px;
 }
